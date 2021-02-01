@@ -20,7 +20,8 @@ O cmd acima tem um sleep de 10 segs, enquanto ele roda experimente rodar em outr
 
     http://localhost:8000/count
 
-Ele deverá responder de imediado dado a arquitetura async do Sanic. Experimente também acessar a task que você criou:
+Ele deverá responder de imediado dado a arquitetura async do Sanic. Experimente também acessar a task que você acabou de criar:
+
     http://localhost:8000/query/0
 
 Note que os ids das tasks iniciam por 0 - fique a vontade para rodar mais testes com o serviço.
